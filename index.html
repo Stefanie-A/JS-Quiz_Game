@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
+    <link rel="styelsheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/solid.min.css">  
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start">
+        <button class="start-btn">Start QUIZ</button>
+    </div>
+    <section id="box-container" class="hide">
+        <header>
+            <div class="title">Js Awesome quiz</div>
+            <div class="timer">Time left: <span id="time">25</span></div>
+        </header>
+        <div class="quiz_box">
+                <div class="quizMessage"><h3>question</h3></div>
+            <div class="option_list">
+                <button class="option">
+                    <span> answ 1</span>
+                </button>
+                <button class="option">
+                    <span> answ 1</span>
+                </button>
+                <button class="option">
+                    <span> answ 1</span>
+                </button>
+                <button class="option">
+                    <span> answ 1</span>
+                </button>
+            </div>
+        </div>
+        <footer>
+            <div class="total_ques">
+                <span><b class="current"></b> of <b class="total"> </b> Questions</span>    
+            </div>
+
+            <button id="next_btn">Next Question</button>
+        </footer>
+    </section>
+    <div id="result_box" class="hide">
+        <div class="icon">
+            <i class="fas fa-crown fa-5x"></i>    
+        </div>
+        <p></p>
+        <div class="text">You've completed the Quiz!</div>
+        <p></p>
+        <div class="score">You scored <b id= "scs"></b> out of <b class="tl"> </b> questions</div>
+        <p></p>
+        <button class="btn" onclick="restart()">Restart QUIZ</button>
+    </div> 
+     <div id="over" class="hide">
+        <div class="icon">
+        <i class="fa-solid fa-heart-crack fa-5x"></i>
+    </div>
+        <p id="text"></p>
+        <div class="score"><p>You scored <b id="x"></b> out of <b class="ttl"> </b> questions</p></div>
+        <center><button class="btn" onclick="restart()">Restart QUIZ</button></center>     
+    </div>      
+    </div>
+    
+    <script src="quiz.js"></script>
+</body>
+</html>
