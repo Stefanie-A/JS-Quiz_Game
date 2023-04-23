@@ -190,9 +190,9 @@ footer .total_ques span {
 }
 @media (max-width: 768px){
     #box-container{
-        
+        position: absolute;
         width: 300px;
-        left: -0;
+        left: -50px;
     }
     header{
         line-height: 2;
@@ -213,14 +213,14 @@ footer .total_ques span {
         justify-content: space-evenly;
     }
 }
-@media (max-width: 375px){
+/* @media (max-width: 375px){
     .container{
-        width: 200px; 
-        left: 15%;  
+        width: 200px;  */
+        /* left: 15%;  
         right: 10%;
-        top: 10%;
-    } 
-    #box-container{
+        top: 10%; 
+    } */
+    /* #box-container{
         width: 300px;
         position: absolute;
         background: #eee;
@@ -231,6 +231,6 @@ footer .total_ques span {
         /* visibility: hidden;
         opacity: 0; */
         /* padding: 10%; */
-        border: ridge;
+        /* border: ridge; 
     }
-} 
+} */
