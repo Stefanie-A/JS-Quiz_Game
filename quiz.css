@@ -124,9 +124,6 @@ footer .total_ques span {
     font-weight: 500;
     padding: 0 5px;
 }
-/* .total_ques span p:first-child{
-    padding-left: 0px;
-} */
 #next_btn{
     height: 40px;
     padding: 0 10px;
@@ -213,24 +210,3 @@ footer .total_ques span {
         justify-content: space-evenly;
     }
 }
-/* @media (max-width: 375px){
-    .container{
-        width: 200px;  */
-        /* left: 15%;  
-        right: 10%;
-        top: 10%; 
-    } */
-    /* #box-container{
-        width: 300px;
-        position: absolute;
-        background: #eee;
-        top: 25%;
-        right: 0;
-        left: 0;
-        /* display: none; */
-        /* visibility: hidden;
-        opacity: 0; */
-        /* padding: 10%; */
-        /* border: ridge; 
-    }
-} */
